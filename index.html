@@ -7,53 +7,62 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <jumbotron>COOL SURVEY</jumbotron>
   </head>
   <body>
-    <p>
-      Welcome to this survey! These are examples of form input types that you can use for jQuery.
-    </p>
+    <div class="container">
 
-    <form id="compute">
-
-      <div class="form-group">
-        <label for="Name">Insert name Here</label>
-        <input id="namehere" class="form-control" type="text">
+      <div class="well">
+        <jumbotron>
+          <h1>COOL SURVEY</h1>
+        </jumbotron>
+        <p>
+          Welcome to this survey! These are examples of form input types that you can use for jQuery.
+        </p>
       </div>
 
-      <p>
-        From the selection below, what is your favorite genre of music?
-      </p>
-      <select class="form-control" id="genre">
-        <option value="clown-metal">Clown Metal</option>
-        <option value="core-step">Corestep</option>
-        <option value="mall-wave">Mall Wave</option>
-        <option value="highway-orchestra">Highway Orchestra</option>
-      </select>
+      <form id="compute">
 
-      <div class="radio">
-        <label>
-          <input type="radio" name="which" value="this" checked>This button
-        </label>
-        <label>
-          <input type="radio" name="which" value="that" checked>That button
-        </label>
-      </div>
-      <div class="form-group">
-        <label for="born">Describe the ideal date:</label>
-        <input id="born" class="form-control" type="date">
-      </div>
-      <div class="form-group">
-        <label for="color">What is your favorite color?</label>
-        <input id="color" class="form-control" type="color">
-      </div>
-      <button type="submit" class="btn">SUBMIT!</button>
-    </form>
+        <div class="form-group">
+          <label for="Name">Insert name Here</label>
+          <input id="namehere" class="form-control" type="text">
+        </div>
 
-    <div>
-      <ul id="output">
+        <p>
+          From the selection below, what is your favorite genre of music?
+        </p>
+        <select class="form-control" id="genre">
+          <option value="clown-metal">Clown Metal</option>
+          <option value="core-step">Corestep</option>
+          <option value="mall-wave">Mall Wave</option>
+          <option value="highway-orchestra">Highway Orchestra</option>
+        </select>
 
-      </ul>
+        <div class="radio">
+          <label>
+            <input type="radio" name="which" value="this">This button
+          </label>
+          <label>
+            <input type="radio" name="which" value="that" checked>That button
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="born">Describe the ideal date:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+
+        <div class="form-group">
+          <label for="color">What is your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+
+        <button type="submit" class="btn">SUBMIT!</button>
+      </form>
+      <div>
+        <ul id="output">
+
+        </ul>
+      </div>
     </div>
   </body>
 </html>
